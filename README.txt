@@ -9,3 +9,4 @@ https://seungmin-l.github.io/Static-Website-COSC2430-/blog.html
 
 
 I added some <br> and &nbsp; between the html codes to increase readability when viewing the website.
+Thank you!
