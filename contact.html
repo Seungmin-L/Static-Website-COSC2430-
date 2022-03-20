@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+      <title>Contact</title>
+      <meta charset='utf-8'>
+      <meta name='contact' content='form'>
+    </head>
+    <body>
+      <header>
+       <h1>Seungmin Lee</h1>
+      </header>
+      <nav class='menu'>
+        <h3>
+            →&nbsp;&nbsp;&nbsp;<a href='cv.html'>Profile</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href='project.html'>Project</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href='contact.html'>Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href='blog.html'>Blog</a>
+        </h3>
+      </nav>
+      <br><br>
+      <main>
+      ──────────────────────────────────────────────────────────────────────────────────────────────
+      <br><br>
+      <h2>✉️ If you have any questions,</h2>
+      <fieldset>
+       <legend>Contact Form</legend>
+        <form method='post' action='contact.html' enctype='multipart/form-data'>
+         <br>
+         <div class='form-row'>
+            <div class='form-label'>
+             <label for='purpose'>Purpose of Contact:</label>
+            </div>
+            <div class='form-field'>
+             <select id='purpose' name='purpose'>
+             <option value='' selected>Select</option>
+             <option value='business'>Business</option>
+             <option value='personal'>Personal</option>
+             </select>
+            </div>
+         </div>
+         <br>
+         <div class='form-row'>
+            <div class='form-label'>
+             <label for='name'>Name:</label>
+            </div>
+            <div class='form-field'>
+             <input id='name' type='text' name='name' maxlength='50' required>
+            </div>
+         </div>
+         <br>
+         <div class='form-row'>
+            <div class='form-label'>
+             <label for='email'>E-mail:</label>
+            </div>
+            <div class='form-field'>
+             <input id='email' type='email' name='email' required>
+            </div>
+         </div>
+         <br>
+         <div class='form-row'>
+            <div class='form-label'>
+             <label for='phone-number'>Phone:</label>
+            </div>
+            <div class='form-field'>
+             <input id='phone-number' type='tel' name='phone-number' pattern='[0-9]{9,13}' title='Enter 9 to 13 digits' required>
+            </div>
+         </div>
+         <br>
+         <div class='form-row'>
+            <div class='form-label'>
+             <label>Preferred contact method:</label>
+            </div>
+            <div class='form-field'>
+             <input type='radio' id='contact-email' name='contact method' value='E-Mail'><label for='contact-email'>E-Mail</label>
+             <input type='radio' id='contact-phone' name='contact method' value='Phone'><label for='contact-email'>Phone</label>
+            </div>
+         </div>
+         <br>
+         <div class='form-row'>
+            <div class='form-label'>
+             <label>Preferred Contact Day: </label>
+            </div>
+            <div class='form-field'>
+             <input type='checkbox' id='contact-monday' name='days[]' value='monday'><label for='contact-monday'>Monday</label>
+             <input type='checkbox' id='contact-tuesday' name='days[]' value='tuesday'><label for='contact-tuesday'>Tuesday</label>
+             <input type='checkbox' id='contact-wednesday' name='days[]' value='wednesday'><label for='contact-wednesday'>Wednesday</label>
+             <input type='checkbox' id='contact-thursday' name='days[]' value='thursday'><label for='contact-thursday'>Thursday</label>
+             <input type='checkbox' id='contact-friday' name='days[]' value='friday'><label for='contact-friday'>Friday</label>
+            </div>
+         </div>
+         <br>
+         <div class='form-row'>
+            <div class='form-label'>
+              <label for='message'>Feel free to leave a message! :)</label>
+            </div>
+            <div class='form-field'>
+             <textarea id='message' name='message' cols='50' rows='5'></textarea>
+            </div>
+         </div>
+         <br><br>
+         <div class='form-row'>
+            <input type='reset' name='delete' value='Rewrite'>&nbsp;&nbsp;
+            <input type='submit' name='send' value='Submit'>
+         </div>
+         <br>
+        </form>
+      </fieldset>
+      </main>
+      <br><br>
+      ──────────────────────────────────────────────────────────────────────────────────────────────
+      <br><br>
+      <footer class='mailto'>
+     <p>Copyright © 2022 Seungmin<br>If you need more information, click <a href='mailto:s3864235@rmit.edu.vn'>s3864235@rmit.edu.vn</a> !</p>
+      </footer>
+    </body>
+</html>
